@@ -1,0 +1,132 @@
+@media screen and (max-width: 1000px) {
+    .from-section-1 {
+        display: block;
+    }
+
+    .form-row {
+        margin-bottom: 40px;
+    }
+
+    .form-col-1 {
+        margin: 0 auto;
+        padding-right: 0;
+        padding-top: 5%;
+    }
+
+    .form-row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .last-name,
+    .firs-name,
+    .second-name {
+        width: 100%;
+        flex-grow: 1;
+    }
+
+    .form-col-2 {
+        margin: 0 auto 5%;
+        padding-left: 0;
+    }
+
+    .form-col-3_section {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .form-col-3,
+    .form-row-4 {
+        width: 70%;
+        margin: 0 auto 5%;
+    }
+
+    .padding {
+        margin: 0;
+    }
+
+    .number-block,
+    .email-block {
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 850px) {
+    .header-inner {
+        padding: 1% 0;
+    }
+
+    .form-block h1 {
+        font-size: 40px;
+    }
+
+    .form-footer {
+        display: block;
+        text-align: center;
+        justify-content: center;
+        margin-bottom: 0;
+    }
+
+    .form-title {
+        padding: 0 10px;
+    }
+
+}
+
+@media screen and (max-width: 800px) {
+    body {
+        font-size: 15px;
+    }
+
+    .form-title {
+        font-size: 13px;
+    }
+
+    .form-col-1,
+    .form-col-2,
+    .form-col-3,
+    .form-row-4 {
+        width: 80%;
+    }
+
+    .from-wrapper {
+        padding: 0;
+    }
+
+    .form-row-2 {
+        width: 174px;
+        margin: 20px auto;
+    }
+
+    .form-col-1 label,
+    .label-number,
+    .label-email {
+        font-size: 12px;
+    }
+
+}
+@media screen and (max-width: 670px) {
+    .header-inner{
+        display: block;
+        justify-content: center;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 650px) {
+    .form-block h1 {
+        font-size: 30px;
+        margin: 0;
+    }
+
+    .form-button {
+        height: 35px;
+        font-size: 12px;
+    }
+}
+@media screen and (max-width: 500px){
+    .form-col-3_section,
+    .form-col-4_section{
+        padding: 0;
+    }
+}
